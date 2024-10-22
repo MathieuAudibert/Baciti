@@ -1,3 +1,13 @@
 Citi : 
 dump de photos/vidéos/musiques
 possibilité de match les citis et les moods
+commenter les citis
+reactions bereal
+notif
+recherche citi par catégorie
+quotidien/semaine/mois 
+
+gitis : 
+dump collaboratif 
+groupes
+
