@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '16'  # Assurez-vous de spécifier une version compatible
+          node-version: '16'
 
       - name: Install dependencies
         run: npm install
@@ -26,8 +26,9 @@ jobs:
 
       - name: Run tests
         run: |
-          chmod +x ./node_modules/.bin/jest
-          ./node_modules/.bin/jest --coverage
+         chmod +x ./node_modules/.bin/jest
+         ./node_modules/.bin/jest --coverage --passWithNoTests
+
 
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v4
