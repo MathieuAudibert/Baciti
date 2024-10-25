@@ -29,6 +29,9 @@ jobs:
          chmod +x ./node_modules/.bin/jest
          ./node_modules/.bin/jest --coverage --passWithNoTests
 
+      - name: Get serviceAccountKey 
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
 
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v4
