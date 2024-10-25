@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/github/MathieuAudibert/Baciti/graph/badge.svg?token=F6OU8X7O4F)](https://codecov.io/github/MathieuAudibert/Baciti)
+
 # Baciti.
 Baciti is a **social media relying on community's engagement**. The concept is simple : you can post each day/week/month a *citi*. 
 
