@@ -1,7 +1,6 @@
 import os
 import json
 import firebase_admin
-from firebase_admin import credentials, storage
 
 service_account_info = json.loads(os.getenv('FIREBASE_SERVICE_ACCOUNT'))
 
