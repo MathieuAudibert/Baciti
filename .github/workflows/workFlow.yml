@@ -1,11 +1,11 @@
-name: Run tests and upload coverage
+name: Baciti run test
 
-on: 
+on:
   push
 
 jobs:
-  test:
-    name: Run tests and collect coverage
+  init:
+    name: Init
     runs-on: ubuntu-latest
 
     steps:
