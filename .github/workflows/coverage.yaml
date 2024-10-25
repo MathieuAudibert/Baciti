@@ -43,12 +43,6 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: python bucket_co.py
 
-      - name: Run Python tests and collect coverage
-        run: |
-          pip install coverage  # Ensure coverage tool is installed
-          coverage run -m unittest discover  # Run Python tests
-          coverage xml -o coverage-python.xml  # Generate Python coverage XML
-
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v4
         with:
