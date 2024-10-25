@@ -5,7 +5,7 @@ on:
 
 jobs:
   init:
-    name: Init
+    name: Initialization
     runs-on: ubuntu-latest
 
     steps:
